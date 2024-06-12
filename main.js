@@ -6,7 +6,7 @@
     const password = document.querySelector("#pass").value;
     if( email == "ajibolaabdullah2002@gmail.com" && password == "12345678"){
         alert('Login successful');
-        window.location.assign('/index.html');
+        window.location.assign('/login.html');
     }else{
         alert('Wrong Entry Inavlid Details');
         return;
