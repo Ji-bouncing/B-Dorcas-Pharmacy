@@ -1,0 +1,1129 @@
+*{
+    padding:0;
+    margin:0;
+    clear:both;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size:62.5%;
+}
+/*Header Starts*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:1% auto;
+    width:80%;
+}
+header h1{
+    color:darkgreen;
+}
+header input{
+    width:20%;
+    position: relative;
+}
+header input::placeholder{
+    padding-left:15%;
+}
+
+.search{
+    position: absolute;
+    left:44%;
+    top:3.5%;
+    padding-left:1%;
+    font-weight: 100;
+   
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width:10%;
+}
+.icons > span{
+    font-size: 2rem;
+}
+.shopIcon{
+    display: flex;
+}
+.shopIcon > div span{
+    display: block;
+}
+.shopIcon > span{
+    font-size: 2rem;
+    margin-left:2%;
+}
+.shopIcon div{
+    padding-left:2%;
+}
+.shopIcon div span{
+    font-size:1.2rem;
+    margin-top:-2%;
+    display:block;
+  
+}
+/*Header Ends*/
+/*Header Sibling Section Starts*/
+header + section {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin:3% auto;
+}
+.products_list select{
+    margin-left: 1%;
+    border:none;
+    font-size: 1.5rem;
+}
+.products_list span{
+    display: inline-block;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+.products_list{
+    width:45%;
+}
+.pesonal_info span{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+.cate_gory{
+    background-image: url('./Resources/Images/tablets-and-capsules.jpg');
+    height:10vh;
+    margin-top:-2.5%;
+   padding:1% 2%;
+}
+.cate_gory span{
+    display: inline-block;
+    padding-top:2%;
+}
+.cate_gory > span i{
+    color:white;
+    font-size:1.5rem;
+}
+.cate_gory select{
+    border:none;
+    border-radius:4px;
+    margin-left:0.3%;
+    width:10%;
+}
+/*Header Sibling Section Ends*/
+/*Form Section starts*/
+.formPage{
+    width:40%;
+    border:1px solid rgb(40, 33, 33);
+    margin:4% auto;
+    border-radius:3px;
+    height:50vh;
+}
+.formPage h2{
+    text-align: center;
+    padding-top:4%;
+    padding-bottom:2%;
+    font-size: 20px;
+}
+form input.center{
+    display: block;
+    width:70%;
+    margin:2% auto;
+    padding:1.5%;
+}
+.passReset{
+    display: flex;
+    justify-content: space-between;
+    margin-left:15%;
+    margin-right:4%;
+    font-size: 1.5rem;
+    width:70%;
+    
+    
+}
+.regResquest{
+    margin-top:4%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.reg a{
+    font-weight: 900;
+     color:black;
+}
+form button{
+    padding:1.5%;
+    font-size: 1.5rem;
+    border:none;
+    border-radius:4px;
+    background:green;
+    color:white;
+    margin:2% auto;
+    display: block;
+    width:20%;
+}
+/*Form Section Ends*/
+/*Footer Starts*/
+.containerSection{
+    display: flex;
+    margin-top:20%;
+    background: black;
+    color:white;
+    padding-top:5%;
+    height:20vh;    
+    justify-content: space-around;
+}
+.containerSection i,a{
+    color:white;
+}
+.bdorcasLogo h1{
+    font-size: 2rem;
+    padding:3% 0;
+}
+.bdorcasLogo p{
+    padding:3% 0;
+    font-size: 1.4rem;
+}
+.bdorcasLogo span i{
+    font-size: 1.7rem;
+    padding: 2% 6% 0 0;
+}
+.accountInfo h2{
+    font-size: 2rem;
+    padding:3% 0;   
+    border-bottom:2px solid rgb(18, 253, 18);
+}
+.accountInfo  ul{
+    list-style-type:none;
+}
+.accountInfo  ul li{
+    padding:3% 0;
+    font-size: 1.5rem;
+}
+.accountInfo  ul li a{
+    text-decoration: none;
+}
+.helpMe h2{
+    font-size: 2rem;
+    padding:3% 0;   
+    width:40%;
+    border-bottom:2px solid rgb(18, 253, 18);  
+}
+.helpMe ul{
+    list-style-type:none;
+}
+.helpMe  ul li{
+    padding:3% 0;
+    font-size: 1.5rem;
+}
+.helpMe  ul li a{
+    text-decoration: none;
+}
+.proxyLists h2{
+    font-size: 2rem;
+    padding:3% 0;   
+    width:70%;
+    border-bottom:2px solid rgb(18, 253, 18);   
+}
+.proxyLists ul{
+    list-style-type:none;
+}
+.proxyLists  ul li{
+    padding:3% 0;
+    font-size: 1.5rem;
+}
+.proxyLists ul li a{
+    text-decoration: none;
+}
+.downloadInfo h2{
+    font-size: 2rem;
+    padding:3% 0;
+}
+.storeDownload{
+    display: flex;
+    width:115%;
+    justify-content: space-between;
+}
+.divOne{
+    display: flex;
+    width:100%;
+    padding:2px;
+    border-radius:4px;
+    justify-content: space-between;
+    background: lightslategrey;
+}
+.divOne span i{
+    font-size: 3rem;
+}
+.divTwo{
+    display: flex;
+    width:100%;
+    padding:2px;
+    border-radius:4px;
+    background: lightslategrey;
+    margin-left:0.1px;
+    justify-content: space-between;
+}
+.divTwo span i{
+    font-size: 2rem;   
+}
+/*Footer Ends*/
+/*Index main section starts*/
+.mainSection{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    height:50vh;
+    margin-bottom: 5%;
+   
+}
+.firstSect{
+    margin:3% auto;
+    background-image: url('./Resources/Images/tablets-and-capsules.jpg');
+    height: 40vh;
+    width:40%;
+    padding-left:5%;
+    padding-top:5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstSect h1{
+    font-size: 2rem;
+    color:white;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+.firstSect p{
+    margin:5% 0;
+    color:white;
+    font-size:1.2rem;
+}
+.firstSect button{
+    background: white;
+    color: green;
+    padding:2% 4%;
+    border:1px solid black;
+    border-radius:5px;
+    font-weight: 900;
+}
+.firstSect button:hover{
+    cursor: pointer;
+    background: green;
+    color:white;
+}
+.secondSect{
+    height:25vh;
+    margin-top:22%;
+    margin-left:-105%;
+    background-image: url('./Resources/Images/The-Most-Prescribed-Drugs-Abused\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:250%;
+    border-radius: 4px;
+}
+.secondSect p,.secondSect button{
+    margin: 2% 5%;
+    padding:1% 0;
+}
+.summerPara{
+    color:white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top:4%;
+}
+.discountPrice{
+    color:white;
+    font-size:1.3rem;
+}
+.amountDesc{
+    color:white;
+    font-size: 2rem;
+    font-weight: 900;
+}
+button.orderNow{
+    padding:2% 4%;
+    border-radius: 4px;
+    border:none;
+    color:green;
+    font-weight: 500;
+}
+.thirdSect{
+    height:22vh;
+    margin-top:6%;
+    margin-left:-105%;
+    background-image: url('./Resources/Images/cat.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:230%;
+    border-radius: 4px;
+    padding-left:20%;
+}
+.thirdSect span{
+    display: block;
+    padding-top:4%;
+    font-size: 1.8rem;
+    color:whitesmoke;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.thirdSect p{
+    color:white; 
+    margin-top:3%;   
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.orderNow:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}
+/*Index main section Ends*/
+/*Ads Section starts*/
+.adsSection{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:0 auto;
+}
+.flexDiv{
+    display: flex;
+}
+.flexDiv span{
+    color:green;
+    font-size: 2.2rem;
+    padding-right:5%;
+}
+.flexDiv div h3{
+    margin-left:2%;
+    font-size:1.3rem;
+    margin-bottom: 1.2rem;
+}
+.flexDiv div p{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+/*Ads Section Ends*/
+/*Section Product ads start*/
+.productAds{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.productAds section img{
+    width:300px;
+    height:300px;
+    border-radius:16px;
+}
+.productAds div{
+    display: flex;
+    height:20%;
+    padding:5%;
+}
+ .productAds div h2{
+    font-size: 3.1rem;
+    font-weight: 400;
+}
+.productAds div span{
+    padding:3% 0 0 25%;
+    font-size: 2.5rem;
+}
+/*Section Product ads Ends*/
+/*Section pharm prod list starts*/
+.pharmacyProducts{
+    margin-top:3%;
+    margin-left:2%;
+}
+.pharmacyProducts h1{
+    font-size:3rem;
+    text-transform: capitalize;
+    border-bottom:4px solid green;
+    width: 9%;
+}
+.pharmProdList{
+    display: flex;
+    width:95%;
+    justify-content: space-between;
+    margin-top:2%;
+}
+.pharmProdList div{
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    color: white;
+    width:12%;
+    border-radius: 5px;
+    padding:1% 2%;
+}
+.pharmProdList div a {
+    text-decoration: none;
+}
+.pharmProdList div a:hover{
+    cursor: pointer;
+}
+.pharmProdList div span{
+    font-size: 1.5rem;
+}
+/*Section pharm prod list Ends*/
+/*Section Supermarket products starts*/
+.listOfProducts{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+.supermarketProducts{
+    margin-top: 4%;
+}
+.supermarketProducts h2{
+    font-size:3rem;
+    margin-left: 2.4%;
+    text-transform: capitalize;
+    border-bottom:4px solid green;
+    width: 10%;
+    margin-bottom: 2%;
+}
+.vetLink{
+    color:black;
+    text-decoration: none;
+}
+.listOfProducts div img{
+    width: 100px;
+    height:100px;
+}
+.listOfProducts div img,.listOfProducts div span {
+    display: block;
+    margin:1% auto;
+    border-radius:5px;
+    text-align: center;
+}
+.listOfProducts div span{
+    font-size: 2rem;
+}
+/*Section Supermarket products Ends*/
+
+/*Section current Discount starts*/
+.currentDiscount{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    margin:4% auto;
+    height:260px;
+}
+.firstDivInfo{
+    background-image: url('./Resources/Images/Dog\ lying\ down\ overlay\ backgroud.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;
+    border-radius: 26px;
+    height:60vh;
+}
+.firstDivInfo span{
+        display: block;
+        text-align: center;
+        color: white;
+        padding-top:40%;
+        text-transform: uppercase;
+        font-weight: 600;
+}
+.firstDivInfo  h2{
+    color:white;
+    text-align: center;
+    padding: 4% 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.firstDivInfo  button{
+    display: block;
+    margin:4% auto;
+    padding:2% 4%;
+    border: none;
+    border-radius: 5px;
+    color:green;
+}
+.firstDivInfo  button:hover{
+    cursor: pointer;
+    background:green;
+    color:white;
+}
+.secondDivInfo{
+    background-image: url('./Resources/Images/Fresh\ fruit\ overlay\ backgrond.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;
+    border-radius: 26px;
+    height:60vh;
+}
+.summerSalesSpan{
+    display: block;
+    text-align: center;
+    color: black;
+    padding-top:40%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.secondDivInfo  h2{
+    color:black;
+    font-weight: 600;
+    text-align: center;
+    padding: 4% 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.secondDivInfo div{
+    padding-left: 40%;
+    display: inline-block;
+    width:60%;
+}
+.secondDivInfo div span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.secondDivInfo div > span + span{
+    background: black;
+    color:white;
+    padding:2%;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.secondDivInfo button{
+    display: block;
+    margin:5% auto;
+    padding:2% 4%;
+    border-radius: 5px;
+    border:none;
+    color:green;
+    font-weight: 500;
+}
+.secondDivInfo  button:hover{
+    cursor: pointer;
+    background:green;
+    color:white;
+}
+.thirdDivInfo{
+    background-image: url('./Resources/Images/low\ fat\ meat\ overlay\ background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;
+    border-radius: 26px;
+    height:60vh;
+}
+.fatFreeDiscount{
+    display: block;
+    text-align: center;
+    padding: 40% 0 3% 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color:white;
+}
+.thirdDivInfo h2{
+    color:white;
+    text-align: center;
+    padding: 4% 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.startPrice{
+    display: block;
+    padding-left: 40%;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: white;
+}
+span.discountedPrice{
+    color: darkgoldenrod;
+    font-weight: 900;
+}
+.thirdDivInfo button{
+    display: block;
+    margin:5% auto;
+    padding:2% 4%;
+    border-radius: 5px;
+    border:none;
+    color:green;
+    font-weight: 500;
+}
+.thirdDivInfo  button:hover{
+    cursor: pointer;
+    background:green;
+    color:white;
+}
+/*Section current Discount ends*/
+/*section professional Info Start*/
+.professionalInfo h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-top:10%;
+}
+.professionalWorkers{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:3% auto;
+}
+.professionalWorkers div img{
+    width:210px;
+    height:160px;
+    border-radius:6px;
+}
+.professionalWorkers div span{
+    display: block;
+}
+.firstMember{
+    text-transform: uppercase;
+    padding:2% 2%;
+    font-weight: 700;
+}
+.firstMember + span{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 2%;
+}
+/*section professional Info ends*/
+/*Section Client Testimonial starts*/
+.clientTestimonials{
+    background: #F2F2F2;
+}
+.testCount{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:3% auto;
+    padding:2% 0;
+   
+}
+.testCount h3{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.testCount div{
+    display: flex;
+    width:30%;
+}
+.testCount div p{
+    font-weight:500;
+    font-size: 2rem;
+    margin-left: 2%;
+    padding: 3%;
+    width:10%;
+    text-align: center;
+    background: white;
+    border-radius:50%;
+    color:black;
+}
+.testCount div p:last-child{
+    background: rgb(126, 245, 126);
+    color: white;
+}
+.customers img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.testimonials div{
+    margin:1% auto;
+    background: white;
+    padding:2%;
+    border-radius: 6px;
+}
+.testimonials div p{
+    font-size: 1.2rem;
+    margin:0 0 5% 0;
+}
+.custAndImage{
+    display: flex;
+}
+.customers{
+    display:flex;
+}
+div.ratingStar span i{
+    font-size:1rem;
+    color:gold;
+}
+.customers div span:first-child{
+    font-weight:800;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.customers div span:last-child{
+    font-size:0.9rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/*Section Client Testimonial ends*/
+/*Section social Media starts*/
+.socialMedia{
+    margin-top:5%;
+}
+.socialMedia h2{
+    text-align: center;
+    margin: 3% 0;
+    font-weight: 800;
+}
+.socialMedia div img{
+    width:100px;
+    height:100px;
+    border-radius: 6px;
+}
+.socialMedia div{
+    display: flex;
+    width:50%;
+    margin:0 auto;
+    justify-content: space-evenly;
+}
+/*Section social Media Ends*/
+/*section vetproductlistinfull starts*/
+.vetProductsListInFull{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vetProductsListInFull section{
+    background: rgb(247, 240, 240);
+    padding:2%;
+    margin:2% 0;
+    border-radius: 6px;
+}
+.firstVetDiv img{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+}
+.firstVetDiv {
+    display: flex;
+}
+.secondVetDiv span{
+    display: block;
+    padding:1% 0;
+}
+.secondVetDiv span:first-child{
+    color:green;
+}
+.specDisplay{
+    display: flex;
+}
+.linkToOtherPages div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+}
+.linkToOtherPages div span{
+    padding-right: 4%;
+    padding-left:2%;
+    padding-top:1%;
+}
+.linkToOtherPages div span:first-child,.linkToOtherPages div span:last-child{
+    background: rgb(196, 177, 177);
+    color:black;
+    width: 1%;
+    text-align: center;
+    border-radius: 50%;
+    padding:1%;
+}
+
+.linkToOtherPages div span:nth-child(2){
+    background: black;
+    color:white;
+    border-radius: 50%;
+    padding:15px;
+    margin-left: 2%;
+    font-weight: 900;
+}
+/*section vetproductlistinfull Ends*/
+/*Section drug list starts*/
+.drugLists{
+    display: flex;
+    justify-content: space-evenly;
+    margin:3% 5%;
+}
+.drugLists section{
+    height:40vh;
+    width:30%;
+}
+.firstDrugList{
+    background-image: url('./Resources/Images/anti\ acid\ background.jpg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.firstDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:3rem;
+    font-weight: 900;
+}
+.firstDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.secondDrugList{
+    background-image: url('./Resources/Images/anti\ malaria\ drug\ background.jpeg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+
+}
+.secondDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.secondDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.thirdDrugList{
+    background-image: url('./Resources/Images/anti\ infective\ drug\ background.jpg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border:2px solid rgb(50, 46, 46);
+    position: relative;
+}
+.thirdDrugList h2{
+    position: absolute;
+    top:75%;
+    color:black;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.thirdDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    color:black;
+    padding-right:4%;
+
+}
+.fourthDrugList{
+    background-image: url('./Resources/Images/Children\ health\ backgrond.webp');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.fourthDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.fourthDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.fifthDrugList{
+    background-image: url('./Resources/Images/Balm\ and\ cream\ background.webp');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.fifthDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.fifthDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.sixthDrugList{
+    background-image: url('./Resources/Images/Injection\ backgrond.webp');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.sixthDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.sixthDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.seventhDrugList{
+    background-image: url('./Resources/Images/cough\ and\ cold\ background.png');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.seventhDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.seventhDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.eightDrugList{
+    background-image: url('./Resources/Images/pain\ management\ background.jpg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.eightDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.eightDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.ninthDrugList{
+    background-image: url('./Resources/Images/other\ drug\ background.jpg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+}
+.ninthDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    font-size:2rem;
+    font-weight: 900;
+}
+.ninthDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4%;
+
+}
+.otherDrugList{
+    background-image: url('./Resources/Images/oral\ medication\ background.jpg');
+    border-radius: 5px;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position: relative;
+    margin-bottom: 5%;
+}
+.otherDrugList h2{
+    position: absolute;
+    top:75%;
+    left:7%;
+    color:rgb(62, 52, 52);
+    font-size:2rem;
+    font-weight: 900;
+}
+.otherDrugList span{
+    position: absolute;
+    top:90%;
+    left:7%;
+    color:rgb(62, 52, 52);
+    font-size: 1.5rem;
+    font-weight: 900;
+    display:inline;
+    padding-right:4other
+}
+.malariaSpecial{
+    font-size: 2.4rem;
+    width:100%;
+}
+.blackInfect{
+    color:black;
+}
+.infectiveSpecial{
+    font-size: 2.2rem;
+}
+.childSpecial{
+    font-size: 1.8rem;
+}
+/*Section drug list Ends*/
